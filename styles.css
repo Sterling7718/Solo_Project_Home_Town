@@ -1,0 +1,118 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(/Fonts/Cinnabar-Brush/DK\ Cinnabar\ Brush.ttf);
+}
+
+@font-face {
+  font-family: SecondFontBold;
+  src: url(/Fonts/Amita/Amita-Bold.ttf);
+}
+
+@font-face {
+  font-family: SecondFontRegular;
+  src: url(/Fonts/Amita/Amita-Regular.ttf);
+}
+
+.fontBrush {
+  font-family: myFirstFont;
+  font-weight: bold;
+}
+
+.fontAmitaBold {
+  font-family: SecondFontBold;
+}
+.fontAmitaRegular {
+  font-family: SecondFontRegular;
+}
+
+.glow {
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* @-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #000ce6,
+      0 0 40px #000ce6, 0 0 50px #000ce6, 0 0 60px #000ce6, 0 0 70px #000ce6;
+  }
+
+  to {
+    text-shadow: 0 0 20px rgb(0, 0, 0), 0 0 30px #4dfff6, 0 0 40px #4dcaff,
+      0 0 50px #4dfffc, 0 0 60px #4dfffc, 0 0 70px #4dfffc, 0 0 80px #4dfffc;
+  }
+} */
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.Hero_Section {
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 460px;
+  width: auto;
+  border-radius: 0px;
+  background-image: url("/images/anawangin-cove-sunset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro {
+  font-size: 10vw;
+  text-shadow: 0 0 50px rgb(63, 0, 0);
+  font-weight: lighter;
+  color: aliceblue;
+  /* background: #00213999; */
+  text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #e65400,
+    0 0 40px #e65400, 0 0 50px #e65400, 0 0 60px #e65400, 0 0 70px #e65400;
+  margin: 0;
+}
+
+.subIntro {
+  font-size: 3vw;
+  text-shadow: 0 0 5px rgb(0, 63, 14);
+  color: aliceblue;
+  background: #481a0065;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 50px 60px;
+}
+
+.Activities_Section {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  height: 700px;
+  font-family: SecondFontRegular;
+  background: #87cc92;
+  color: rgb(0, 0, 0);
+}
+
+img {
+  width: 150px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+.ACTIVITIES {
+  align-self: start;
+  width: auto;
+  margin: 150px auto;
+  padding: 40px 20px;
+  /* border: 2px solid black; */
+}
