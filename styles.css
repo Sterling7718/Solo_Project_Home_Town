@@ -45,8 +45,8 @@ DARK BLUE: #1D3557
 
 @-webkit-keyframes glow {
   from {
-    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #5f4200,
-      0 0 40px #5f4200, 0 0 50px #5f4200, 0 0 60px #5f4200, 0 0 70px #5f4200;
+    text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #a33c01,
+      0 0 40px #a33c01, 0 0 50px #a33c01, 0 0 60px #a33c01, 0 0 70px #a33c01;
   }
 
   to {
@@ -79,8 +79,8 @@ body {
   font-weight: lighter;
   color: aliceblue;
   /* background: #00213999; */
-  text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #e65400,
-    0 0 40px #e65400, 0 0 50px #e65400, 0 0 60px #e65400, 0 0 70px #e65400;
+  /* text-shadow: 0 0 10px rgb(0, 0, 0), 0 0 20px rgb(0, 0, 0), 0 0 30px #e65400,
+    0 0 40px #e65400, 0 0 50px #e65400, 0 0 60px #e65400, 0 0 70px #e65400; */
   margin: 0;
 }
 
@@ -96,12 +96,14 @@ body {
 
 .Activities_Section {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 0 auto;
   height: 700px;
   font-family: SecondFontRegular;
   background: #87cc92;
   color: rgb(0, 0, 0);
+  /* border: 2px solid black; */
+  align-content: center;
 }
 
 img {
@@ -111,7 +113,6 @@ img {
 }
 
 .ACTIVITIES {
-  align-self: start;
   width: auto;
   margin: 150px auto;
   padding: 40px 20px;
